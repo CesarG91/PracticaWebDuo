@@ -1,0 +1,52 @@
+html, 
+body {
+    font-family: 'Opens sans', sans-serif;
+    text-align: left;
+    height: 1500px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    text-align: right; 
+    position: fixed;
+    width: 100%;    
+    top: 0;/*Terminar con el boton de ver mas y la opacidad del intro*/
+    background-color: black; 
+}
+nav ul li {
+    display: inline-block;
+    margin: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.navbar-brand{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+.intro{ /*Donde se encuentra Bienvenidos*/
+    background-image: url(../image/foto8101_800.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0px;
+    min-height: 45vh;
+    padding-top: 25vh;
+    text-align: center;
+   opacity: 0.6;
+    filter: alpha(opacity=60); 
+}
+.intro p{
+    color: white;
+    font-size: 20px;
+}
